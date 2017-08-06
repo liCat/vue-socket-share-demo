@@ -1,0 +1,54 @@
+@media screen and (max-device-width: 640px){
+    body{-webkit-text-size-adjust:none;}
+}
+
+html{
+    font-size: 10px;/*100px*/
+}
+
+
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+    /*iphone 6*/
+    html{
+        font-size: 74.5%;/*11.92px*/
+    }
+}
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+    /*iphone 6 plus*/
+    html{
+        font-size: 80%;/*12.8*/
+    }
+}
+@media (min-device-height: 737px) and (-webkit-min-device-pixel-ratio:3){
+    /*ç‰¹æ®Šå®‰å“*/
+    html{
+        font-size: 67.5%;/*10.8*/
+    }
+}
+@media (min-device-width: 980px){
+    html{
+        font-size: 80%;
+    }
+}
+@media (min-device-width: 980px) and (-webkit-max-device-pixel-ratio:1.6){
+    html{
+        font-size: 100%;
+    }
+    .p2column{
+        column-count:2;   /*IE10+  opera*/
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-gap: 50px;
+        -webkit-column-gap:50px;
+        -moz-column-gap:50px;
+        /*column-rule: 1px dashed #f60;*/
+
+        /*-webkit-column-rule:1px dashed #f60;*/
+
+        /*-moz-column-rule:1px dashed #f60;*/
+    }
+    .p1column{
+        width: 61.8%;
+        margin: 0 auto;
+    }
+}
