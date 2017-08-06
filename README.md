@@ -1,6 +1,6 @@
 # my-share
 
-> A Vue.js project
+> 用到了vue socket 做的一个实时分享的项目。
 
 ## Build Setup
 
@@ -8,11 +8,14 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:18080
 npm run dev
 
 # build for production with minification
 npm run build
 ```
+注意：
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* 要用的config.js中的domain，要与项目启动后的地址一致。
+* 在login.vue中密码用到了md5，请自已设置一组比对值。
+* 在页面中有留给演示者的按钮后门，自己修改样式一定能找到它的。
